@@ -1,0 +1,27 @@
+{
+  "name": "caps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage --verbose",
+    "start":"node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samahAbujwaied/caps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samahAbujwaied/caps/issues"
+  },
+  "homepage": "https://github.com/samahAbujwaied/caps#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "faker": "^5.5.3",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.6"
+  }
+}

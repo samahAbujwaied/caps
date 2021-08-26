@@ -5,6 +5,7 @@ const events = require('../events');
 events.on('driverPickup', payload => {
     setTimeout(() => {
         console.log(`DRIVER: picked up ${payload.orderID}`);
+        events.emit('transit',payload)
         events.emit('delivered', payload)
     }, 1000)
 });

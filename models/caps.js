@@ -1,6 +1,5 @@
 'use strict';
 
-require('dotenv').config()
 
 const events = require('../events')
 require('./driver')
@@ -23,7 +22,7 @@ events.on('pickup', payload => {
 
 events.on('transit', payload => {
     console.log('event:', {
-        event: 'transit',
+        event: 'in-transit',
         time: `${year}-${month}-${day} T ${time}`,
         payload: payload
 
